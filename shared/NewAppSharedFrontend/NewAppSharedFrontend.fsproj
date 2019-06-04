@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NewAppSharedAll\NewAppSharedAll.fsproj" />
+    <Compile Include="SharedFrontend.fs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SharedFrontend.fs" />
+    <ProjectReference Include="..\NewAppSharedAll\NewAppSharedAll.fsproj" />
   </ItemGroup>
 
 </Project>
